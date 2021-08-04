@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>B's Cafe</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif;
+background-color: #848482;}
+.mySlides {display: none}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: right;
+  width: 33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.w3-bar-item {color: white;}
+
+.w3-padding-large {color: white;}
+.w3-dropdown-content {background-color:gray;}
+
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-gray w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About us </a>
+
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-padding-large w3-button" title="More">Beverages <i class="fa fa-caret-down"></i></button>
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+      <a href="#Beverages" class="w3-bar-item w3-button">Hot Beverages </a>
+      <a href="#coldBeverages" class="w3-bar-item w3-button">Cold Beverages</a>
+    </div></div>
+
+
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-padding-large w3-button" title="More">Goodies <i class="fa fa-caret-down"></i></button>
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+      <a href="#Cookies" class="w3-bar-item w3-button">Cookies </a>
+      <a href="#Desserts" class="w3-bar-item w3-button">Desserts</a>
+    </div></div>
+
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">More <i class="fa fa-caret-down"></i></button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#Quiet Zone" class="w3-bar-item w3-button">Quiet Zone</a>
+        <a href="#Merchandise" class="w3-bar-item w3-button">Merchandise</a>
+        <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+        <a href="#loc" class="w3-bar-item w3-button">Location</a>
+
+      </div>
+    </div>
+
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+
+
+  <!-- The home Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px; color: white;" id="">
+    <h1> Welcome to B's Cafe</h1>
+
+    <div class="row">
+  <div class="column">
+    <img src="logo.png" alt="Snow" style="width:50%">
+  </div>
+  <div class="column">
+    <video width="250" controls>
+    <source src="video1.mp4" type="video/mp4">
+    <source src="video1.ogg" type="video/ogg">
+    </video>
+  </div>
+  <div class="column">
+    <img src="logo.png" alt="Mountains" style="width:50%">
+  </div>
+</div>
+
+<div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>Beverages</p>
+        <img src="c8.jpeg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Cookies</p>
+        <img src="b12.jpeg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Desserts</p>
+        <img src="b5.jpeg" class="w3-round" alt="Random Name" style="width:60%">
+      </div>
+    </div>
+  </div>
+
+  <!-- The about us Section -->
+  <div class="w3-gray" id="band">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px; color: white;">
+      <h2 class="w3-wide w3-center">About Us </h2>
+      <p class="w3-opacity w3-center"> Coffee boutique based in Kuwait serving you the finest coffee beans to enjoy for your daily coffee cup.Our local baristas know that great espresso takes more than pushing a button. We work hard to deliver great taste while also providing knowledgeable service, perfect if you just want to try something new. We aim to provide for every taste and lifestyle with the best local ingredients through freshly baked goodies!
+
+And as a final quick intro to “us”- Our first place opened in 2010 at GUST university and provided us with real world experience to make sure B's Cafe can actually deliver what we promise- a great coffee shop experience.</p><br>
+
+
+    </div>
+  </div>
+
+
+  <!-- The Beverages Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px; color: white;" id="Beverages">
+    <h1> Hot Beverages</h1>
+<div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <img src="c3.jpeg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        <p>Cappuccino <br>KWD 1.500</p>
+      </div>
+
+      <div class="w3-third">
+        <img src="c2.jpeg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      <p>cold brew <br>KWD 1.000</p>  </div>
+      <div class="w3-third">
+
+        <img src="c5.jpeg" class="w3-round" alt="Random Name" style="width:60%">
+        <p>Americano<br>
+  KWD 1.500</p>  </div>
+
+
+
+    </div>
+  </div>
+
+
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px; color: white;" id="coldBeverages">
+    <h1> Cold Beverages</h1>
+<div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <img src="c1.jpeg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        <p>Iced Coffee <br>KWD 1.750</p>
+      </div>
+      <div class="w3-third">
+        <img src="c6.jpeg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      <p>Vietnamese Iced Coffee<br>KWD 2.000</p>  </div>
+      <div class="w3-third">
+
+        <img src="c9.jpeg" class="w3-round" alt="Random Name" style="width:60%">
+        <p>Dalgona Coffee<br>
+  KWD 2.250</p>  </div>
+
+
+
+
+    </div>
+  </div>
+
+
+
+
+ <!-- The cookies Section -->
+
+
+
+
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px; color: white;" id="Cookies">
+      <h1> Cookies</h1>
+  <div class="w3-row w3-padding-32">
+        <div class="w3-third">
+          <img src="b12.jpeg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+          <p>Carrot Cake Cookies <br>KWD 1.000</p>
+        </div>
+        <div class="w3-third">
+          <img src="b2.jpeg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        <p>Lemon Shortbread Cookies<br>KWD 1.000</p>  </div>
+        <div class="w3-third">
+
+          <img src="b3.jpeg" class="w3-round" alt="Random Name" style="width:60%">
+          <p>Peanut Butter Cookies<br>
+    KWD 1.000</p>  </div>
+
+      </div>
+    </div>
+
+ <!-- The dessert Section -->
+
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px; color: white;" id="Desserts">
+      <h1> Desserts</h1>
+  <div class="w3-row w3-padding-32">
+        <div class="w3-third">
+          <img src="b5.jpeg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+          <p>Banana Bread <br>KWD 1.250</p>
+        </div>
+        <div class="w3-third">
+          <img src="b6.jpeg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        <p>Yogurt Pound Cake<br>KWD 1.000</p>  </div>
+        <div class="w3-third">
+
+          <img src="b7.jpeg" class="w3-round" alt="Random Name" style="width:60%">
+          <p>Matcha Doughnuts<br>
+    KWD 1.000</p>  </div>
+
+      </div>
+    </div>
+
+
+
+
+ <!-- The zone Section -->
+
+
+    <div class="w3-gray" id="Quiet Zone">
+      <div class="w3-container w3-content w3-padding-64" style="max-width:800px; color: white;">
+        <h2 class="w3-wide w3-center">Quiet Zone</h2>
+        <p class="w3-opacity w3-center"> this cafe offers a quite zone for students, it is a noise free space that is meant to help students focus in studying while serving them to their greatest desire .it is open from 8:00am to 10:00pm. You can place your orders in the quite zone through the ipad, and our staff with help deliver your orders quietly without disturbing you.
+    </p><br>
+
+    <img src="q.jpeg" alt="Girl in a jacket" width="700" height="500">
+
+      </div>
+    </div>
+
+ <!-- The merch Section -->
+
+    <div class="w3-gray" id="Merchandise">
+      <div class="w3-container w3-content w3-padding-64" style="max-width:800px; color: white;">
+        <h2 class="w3-wide w3-center">Merchandise</h2>
+        <p class="w3-opacity w3-center"> Our cafe offers special merchandise that you can buy. We offer seasonal of cups and mugs that come in many different designs, including our many coffee brewing tools that can help brew your favorite morning coffee. We aslo include a variety of ground coffee for you to try.  </p><br>
+
+    <img src="cub.jpeg" alt="Girl in a jacket" width="700" height="500">
+
+      </div>
+    </div>
+  <!-- Ticket Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32">
+        <span onclick="document.getElementById('ticketModal').style.display='none'"
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="How many?">
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px; color: white;" id="contact">
+    <h2 class="w3-wide w3-center">Contact</h2>
+    <p class="w3-opacity w3-center"><i></i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> 
+  Kuwait City:Mariam Tower <br>
+ &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Mubarak ALKabeer Street <br>
+ &nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;Sharq, Kuwait City<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +965 65052313<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: info@BsCafe.com
+
+<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+<!-- End Page Content -->
+</div>
+
+
+
+
+<!-- Image of location/map -->
+<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px; color: white;" id="loc">
+  <h1> Location </h1>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d223439.3035643098!2d48.01852790664372!3d28.950631348483586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fcf00b9da1ac317%3A0xcc1953739a01260a!2sThe%20Coffee%20Bean%20%26%20Tea%20Leaf!5e0!3m2!1sen!2skw!4v1628023891949!5m2!1sen!2skw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Copyright 2021 B's Cafe </a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 4000);
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
